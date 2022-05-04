@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 960px;
   margin: auto;
   background-color: #fff;
 }
@@ -45,25 +45,51 @@ body {
 }
 
 .content {
-  width: 500px;
+  width: 600px;
   padding: 20px;
   float: left;
   line-height: 20px;
 }
 
+.content .penulis {
+  margin-top: -3px;
+  margin-bottom: 3px;
+}
+.content p {
+  margin: 17px;
+}
+
+.content a {
+  color: salmon;
+}
+
 .side {
-  width: 150px;
+  padding: 15px;
+  width: 250px;
+  float: right;
+}
+
+.side h3 {
+  padding: 5px;
+}
+
+.side img {
+  width: 60px;
   float: left;
+  padding-right: 10px;
 }
 
 .clear {
   clear: left;
 }
 
+.footer {
+  background-color: #333;
+}
 .copy {
+  color: #eaeaea;
   text-align: center;
   margin-top: 20px;
-  padding: 20px;
-  background-color: salmon;
+  padding: 10px;
   font-weight: bold;
 }
